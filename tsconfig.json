@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "sourceMap": false,
+    "outDir": "./dist"
+  },
+  "files": [
+    "./src/compiler/Compiler.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

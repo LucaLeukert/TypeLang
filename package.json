@@ -1,0 +1,22 @@
+{
+  "name": "typelang",
+  "version": "1.0.0",
+  "description": "Typeplang is a language written in Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "dev:nodemon": "npx nodemon src/index.ts",
+    "dev:run": "npx ts-node src/index.ts",
+    "dev:build": "rd /s /q C:\\Users\\luca\\WebstormProjects\\TypeLang\\dist && npx tsc -b"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "readline": "^1.3.0",
+    "typescriptcollectionsframework": "^4.4.13"
+  }
+}
